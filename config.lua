@@ -5,21 +5,21 @@ Config.MoneyType = 'bank'
 Config.RepairMoneyType = 'cash'
 Config.UseRadial = false -- Will use qb-radial menu for entering instead of press E
 Config.allowGovPlateIndex = false -- Setting this to true will allow all vehicles to purchase gov plate index "Blue on White #3" (only for emergency vehicles otherwise)
-maxVehiclePerformanceUpgrades = 0 -- | All Upgrades: 0 | No Upgrades: -1 | Can be -1 to 4
+maxVehiclePerformanceUpgrades = -1 -- | All Upgrades: 0 | No Upgrades: -1 | Can be -1 to 4
 
 -- ADJUST PRICING
 vehicleCustomisationPrices = {
     cosmetics = {price = 400},
-    respray = {price = 1000},
+    respray = {price = 2500},
     performance = {prices = {0, 3250, 5500, 10450, 15250, 20500, 25000}},
     turbo = {prices = {0, 15000}},
-    wheels = {price = 400},
-    customwheels = {price = 600},
-    wheelsmoke = {price = 400},
+    wheels = {price = 1500},
+    customwheels = {price = 2500},
+    wheelsmoke = {price = 650},
     windowtint = {price = 400},
     neonside = {price = 100},
     neoncolours = {price = 500},
-    headlights = {price = 100},
+    headlights = {price = 350},
     xenoncolours = {price = 500},
     oldlivery = {price = 500},
     plateindex = {price = 1000}
