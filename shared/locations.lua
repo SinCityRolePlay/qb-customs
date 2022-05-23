@@ -406,4 +406,50 @@ Config.Locations = {
             { coords = vector3(340.38, -570.8, 28.8), length = 8.8, width = 4.2, heading = 340.0, minZ = 27.5, maxZ = 31.5 },
         }
     },
+
+    ['HeliRepair'] = {
+        settings = {
+            label = 'Helicopter Shop',
+            welcomeLabel = "Welcome to Helicopter Shop!",
+            enabled = true,
+        },
+        blip = {
+            label = 'Helicopter Shop',
+            coords = vector3(-1146.05, -2864.5, 13.95),
+            sprite = 72,
+            scale = 0.65,
+            color = 0,
+            display = 4,
+            enabled = true,
+        },
+        categories = {
+            mods = false,
+            turbo = false,
+            armor = false,
+            repair = true,
+            respray = true,
+            liveries = true,
+            wheels = true,
+            tint = true,
+            plate = true,
+            extras = true,
+            neons = true,
+            xenons = true,
+            horn = true,
+            cosmetics = true,
+            extras = true,
+        },
+        drawtextui = {
+            text = "Helicopter Shop"
+        },
+        restrictions = { 
+            deniedClasses = { 21 },
+            job = "ambulance"
+        },
+        zones = {
+            { coords = vector3(-1146.05, -2864.5, 13.95), length = 6.0, width = 6.0, heading = 328.87, minZ = 12.50, maxZ = 16.00 },
+
+
+        }
+    },
 }
