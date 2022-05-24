@@ -110,7 +110,7 @@ Config.Locations = {
         },
         blip = {
             label = 'Redline Performance',
-            coords = vector3(-41.8942, -1044.1943, 28.6297),
+            coords = vector3(-549.55, -926.51, 23.86),
             sprite = 72,
             scale = 0.65,
             color = 0,
@@ -359,12 +359,12 @@ Config.Locations = {
         },
         categories = {
             repair = true,
-            respray = true,
+            respray = false,
             liveries = true,
             tint = true,
             extras = true,
             plate = true,
-            cosmetics = true,
+            cosmetics = false,
         },
         drawtextui = {
             text = "MRPD Motorworks",
